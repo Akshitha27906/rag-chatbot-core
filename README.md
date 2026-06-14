@@ -1,5 +1,4 @@
-# Web RAG Chatbot 🤖
-
+# Web RAG Chatbot 
 A chatbot that reads trusted and authorized websites
 like Wikipedia and answers your questions accurately
 using AI — no guessing, no assumptions!
@@ -40,6 +39,14 @@ pip install requests beautifulsoup4 scikit-learn numpy
 
 Run the chatbot:
 python chatbot.py
+
+### How to add your key:
+Open chatbot.py (code) and go to line 5:
+
+MY_API_KEY = "paste-api-key-here"
+
+Replace "paste-api-key-here" 
+with your api- key and save the file.
 
 ## Example
 
